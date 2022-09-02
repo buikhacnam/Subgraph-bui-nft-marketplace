@@ -24,7 +24,7 @@ export function handleItemListed(event: ItemListedEvent): void {
         )
     }
     itemListed.seller = event.params.seller
-    activeItem.seller = event.params.seller
+   // activeItem.seller = event.params.seller
 
     itemListed.nftAddress = event.params.nftAddress
     activeItem.nftAddress = event.params.nftAddress
